@@ -5,7 +5,6 @@ function App() {
   const [coins, setCoins] = useState([]);
   const [dollar, setDollar] = useState('');
   const [select, setSelect] = useState(0);
-  const [option, setOption] = useState();
   const onChange = (event) => {
     setDollar(event.target.value);
   }
